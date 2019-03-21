@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Restaurant`,
-    description: `Restaurant Webisite build with Gatsby`,
+    description: `Restaurant Website build with Gatsby`,
     author: `Panda`,
   },
   plugins: [
@@ -15,6 +15,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
