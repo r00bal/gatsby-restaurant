@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { createGlobalStyle } from 'styled-components'
 import Navbar from '../components/globals/navbar'
-import Footer from '../components/globals/footer'
+import Footer from '../components/globals/Footer'
 // import "./bootstrap.min.css"
 // import "./layout.css"
 // import "../sass/layout.scss"

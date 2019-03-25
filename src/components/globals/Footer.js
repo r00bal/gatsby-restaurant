@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { styles } from '../../utils'
 import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
 
-export default class Footer extends Component {
+class Footer extends Component {
   state = {
     icons: [
       {
@@ -80,3 +80,5 @@ const FooterWrapper = styled.footer`
     ${styles.border({ color: `${styles.colors.mainYellow}` })}
   }
 `
+
+export default Footer
